@@ -35,4 +35,4 @@ WBDNSDomainInfo.host 客户端需要将这个host设置到HTTP的请求头里。
 以AFNetworking举例
 [manager.requestSerializer setValue:WBDNSDomainInfo.host forHTTPHeaderField:@"Host"];
 
-已解决在网络丢包严重时阻塞主线程
+!已解决在网络丢包严重时阻塞主线程
