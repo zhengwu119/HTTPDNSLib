@@ -36,3 +36,5 @@ WBDNSDomainInfo.host 客户端需要将这个host设置到HTTP的请求头里。
 [manager.requestSerializer setValue:WBDNSDomainInfo.host forHTTPHeaderField:@"Host"];
 
 !已解决在网络丢包严重时阻塞主线程
+#依赖
+YYDispatchQueuePool：https://github.com/ibireme/YYDispatchQueuePool
