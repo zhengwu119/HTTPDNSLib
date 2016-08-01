@@ -86,36 +86,36 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "src/", "src/DNSCache/*.{h,m}"
+    s.source_files  = "src/", "src/*.{h,m}"
     s.subspec 'LogManager' do |ss|
-    ss.source_files = 'src/DNSCache/LogManager/**/*.{h,m}'
+    ss.source_files = 'src/LogManager/**/*.{h,m}'
     end
     s.subspec 'SortManager' do |ss|
-    ss.source_files = 'src/DNSCache/SortManager/**/*.{h,m}'
+    ss.source_files = 'src/SortManager/**/*.{h,m}'
     end
     s.subspec 'QueryManager' do |ss|
-    ss.source_files = 'src/DNSCache/QueryManager/**/*.{h,m}'
+    ss.source_files = 'src/QueryManager/**/*.{h,m}'
     end
     s.subspec 'NetworkManager' do |ss|
-    ss.source_files = 'src/DNSCache/NetworkManager/**/*.{h,m}'
+    ss.source_files = 'src/NetworkManager/**/*.{h,m}'
     end
     s.subspec 'ConfigManager' do |ss|
-    ss.source_files = 'src/DNSCache/ConfigManager/**/*.{h,m}'
+    ss.source_files = 'src/ConfigManager/**/*.{h,m}'
     end
     s.subspec 'SpeedTestManager' do |ss|
-    ss.source_files = 'src/DNSCache/SpeedTestManager/**/*.{h,m}'
+    ss.source_files = 'src/SpeedTestManager/**/*.{h,m}'
     end
     s.subspec 'HttpDnsManager' do |ss|
-    ss.source_files = 'src/DNSCache/HttpDnsManager/**/*.{h,m}'
+    ss.source_files = 'src/HttpDnsManager/**/*.{h,m}'
     end
     s.subspec 'CacheManager' do |ss|
-    ss.source_files = 'src/DNSCache/CacheManager/**/*.{h,m}'
+    ss.source_files = 'src/CacheManager/**/*.{h,m}'
     end
     s.subspec 'Tools' do |ss|
-    ss.source_files = 'src/DNSCache/Tools/**/*.{h,m}'
+    ss.source_files = 'src/Tools/**/*.{h,m}'
     end
     s.subspec 'Models' do |ss|
-    ss.source_files = 'src/DNSCache/Models/**/*.{h,m}'
+    ss.source_files = 'src/Models/**/*.{h,m}'
     end
   #  s.exclude_files = "Classes/Exclude"
 
